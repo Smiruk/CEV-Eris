@@ -151,6 +151,7 @@
 	display_name = "fancy cigar case"
 	path = /obj/item/storage/fancy/cigar
 	cost = 2
+	allowed_roles = list("Captain", "First Officer", "Ironhammer Commander", "Guild Merchant", "Technomancer Exultant", "Moebius Biolab Officer", "Moebius Expedition Overseer", "Club Manager")
 
 /datum/gear/cigarettes
 	display_name = "cigarette packet"
@@ -169,6 +170,7 @@
 /datum/gear/cigar
 	display_name = "fancy cigar"
 	path = /obj/item/clothing/mask/smokable/cigarette/cigar
+	cost = 2
 
 /datum/gear/cigar/New()
 	..()

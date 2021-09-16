@@ -6,7 +6,7 @@
 
 /datum/uplink_item/item/stealthy_weapons/cigarette_kit
 	name = "Cigarette Kit"
-	item_cost = 2
+	item_cost = 1
 	path = /obj/item/storage/box/syndie_kit/cigarette
 
 /datum/uplink_item/item/stealthy_weapons/random_toxin
